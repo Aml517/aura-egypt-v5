@@ -1,0 +1,15 @@
+# Secrets
+.env
+*.env
+aura_cache.db
+__pycache__/
+
+# Dependencies
+node_modules/
+.next/
+dist/
+build/
+
+# OS Junk
+.DS_Store
+Thumbs.db

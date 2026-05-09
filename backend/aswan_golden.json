@@ -1,0 +1,10 @@
+[
+  {"name": "Old Cataract Terrace", "movies": ["Death on the Nile", "The Crown"], "desc": "Victorian colonial elegance, wicker chairs, gin & tonic at sunset, Agatha Christie mystery vibes.", "tags": ["luxury", "noir", "nostalgia"]},
+  {"name": "Philae Temple at Dusk", "movies": ["Harry Potter", "Stargate"], "desc": "Island of Isis, water reflections, sacred geometry, ancient lights, mystical shadows.", "tags": ["magic", "spiritual", "ancient"]},
+  {"name": "Elephantine Island Rocks", "movies": ["Dune", "Interstellar"], "desc": "Giant smooth black granite boulders, primeval river, alien landscape, deep silence.", "tags": ["cosmic", "brutalist", "nature"]},
+  {"name": "Felucca at Golden Hour", "movies": ["The English Patient", "Out of Africa"], "desc": "White sails against orange sky, slow movement, romantic longing, wind in linen.", "tags": ["romance", "peace", "vintage"]},
+  {"name": "Nubian House (Gharb Soheil)", "movies": ["Amélie", "The Grand Budapest Hotel"], "desc": "Vibrant blue and yellow patterns, symmetrical domes, quirky local soul, cinematic color palette.", "tags": ["colorful", "whimsical", "culture"]},
+  {"name": "Kitchener's Garden", "movies": ["The Secret Garden", "Life of Pi"], "desc": "Lush emerald palms, exotic birds, botanical sanctuary in the middle of a desert river.", "tags": ["botanical", "lush", "serene"]},
+  {"name": "Tombs of the Nobles (Night)", "movies": ["The Mummy", "Indiana Jones"], "desc": "Hillside honeycomb of ancient rock, torchlight, sand-swept stairs, archaeological mystery.", "tags": ["adventure", "grit", "historical"]},
+  {"name": "Aswan High Dam", "movies": ["Tenet", "Blade Runner 2049"], "desc": "Massive concrete brutalism, engineering godhood, vast scale, cold industrial power.", "tags": ["industrial", "scale", "modern"]}
+]
