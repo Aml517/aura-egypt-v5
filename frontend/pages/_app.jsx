@@ -1,26 +1,19 @@
-import Head from 'next/head';
-import '../styles/globals.css';
+// frontend/pages/_app.jsx
+import '../styles/globals.css'
+import Head from 'next/head'
 
-function MyApp({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>AuraEgypt | Your Movie's Egypt Trip</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="AI plans your cinematic Egypt adventure." />
+        <title>AuraEgypt — Cinematic Travel Discovery</title>
+        <meta name="description" content="Match a film's emotional soul to an Egyptian destination. AI-powered travel for the discerning explorer." />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta property="og:title" content="AuraEgypt" />
+        <meta property="og:description" content="Find your cinematic portal to Egypt" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>𓂀</text></svg>" />
       </Head>
-
-      <main className="min-h-screen bg-black text-white font-sans selection:bg-yellow-500 selection:text-black">
-        <Component {...pageProps} />
-      </main>
-
-      <style jsx global>{`
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #000; }
-        ::-webkit-scrollbar-thumb { background: #854d0e; border-radius: 10px; }
-      `}</style>
+      <Component {...pageProps} />
     </>
-  );
+  )
 }
-
-export default MyApp;
