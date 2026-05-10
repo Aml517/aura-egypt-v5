@@ -1,4 +1,10 @@
-// Boost Aswan, Hotel partners, Analytics heatmap
-// Sliders → Real-time AI behavior change// Real-time sliders → AI behavior changes instantly
-// "Boost Aswan: [===== 75%]"
-// Analytics: Interstellar → $2,340 revenue
+import React from 'react';
+
+export default function AdminPage() {
+  return (
+    <div style={{ padding: '2rem', color: 'white', background: 'black', minHeight: '100vh' }}>
+      <h1>AuraEgypt Admin</h1>
+      <p>The Oracle is monitoring the portals...</p>
+    </div>
+  );
+}
